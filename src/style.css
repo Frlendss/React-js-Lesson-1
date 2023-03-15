@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+header .box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px 50px;
+  gap: 30px;
+}
+header .bars {
+  display: none !important;
+}
+header .box h1 a {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: right;
+  color: #575353;
+  cursor: pointer;
+}
+header .box h1 a:hover {
+  color: #000000;
+  transition: all 0.2s linear;
+}
+main .page1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 150px 70px 150px;
+}
+main .page1 img {
+  width: 247px;
+  height: 247px;
+  background-color: transparent;
+}
+main .page1 .page1__text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  color: #21243d;
+}
+main .page1 .page1__text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+  width: 500px;
+  margin: 40px 0;
+}
+main .page1 .page1__text form button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  background: #f85151;
+  border-radius: 5px;
+  border: none;
+}
+main .page1 .page1__text form button:hover {
+  background: #f13838;
+  transition: all 0.2s linear;
+}
+main .page1 .page1__text form button:focus {
+  background-color: green;
+  transition: all 0.1s linear;
+}
+main .page2 {
+  background: #edf7fa;
+}
+main .page2 .page2__box1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 150px;
+  align-items: center;
+}
+main .page2 .page2__box1 h1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  display: flex;
+  align-items: flex-end;
+  color: #21243d;
+}
+main .page2 .page2__box1 h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00a8cc;
+  cursor: pointer;
+}
+main .page2 .page2__box2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px 25px 150px;
+}
+main .page2 .page2__box2 .page2__box2-item {
+  padding: 20px;
+  background-color: #fff;
+  width: 410px;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+main .page2 .page2__box2 .page2__box2-item h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+}
+main .page2 .page2__box2 .page2__box2-item .page2__box2-item-text {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+main .page2 .page2__box2 .page2__box2-item .page2__box2-item-text h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243d;
+}
+main .page2 .page2__box2 .page2__box2-item .page2__box2-item-text .text1 {
+  padding-right: 20px;
+  border-right: 1px solid #21243d;
+}
+main .page2 .page2__box2 .page2__box2-item .page2__box2-item-text .text2 {
+  padding-left: 20px;
+}
+main .page3 {
+  padding: 25px 150px 60px 150px;
+}
+main .page3 h1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+main .page3 .page3__box .page3__box-item {
+  padding: 20px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+main .page3 .page3__box .page3__box-item img {
+  border-radius: 6px;
+  width: 246px;
+  height: 180px;
+}
+main .page3 .page3__box .page3__box-item h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
+main .page3__box .page3__box-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main
+  .page3
+  .page3__box
+  .page3__box-item
+  .page3__box-item-text
+  .page3__box-item-text-minitext {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+main
+  .page3
+  .page3__box
+  .page3__box-item
+  .page3__box-item-text
+  .page3__box-item-text-minitext
+  span {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #142850;
+  border-radius: 16px;
+  padding: 4px;
+}
+main
+  .page3
+  .page3__box
+  .page3__box-item
+  .page3__box-item-text
+  .page3__box-item-text-minitext
+  h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+main .page3__box .page3__box-item-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+  width: 580px;
+}
+footer {
+  padding: 100px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer .text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243d;
+}
+
+@media (max-width: 480px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px !important;
+  }
+  header .box {
+    display: none !important;
+  }
+  header .bars {
+    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 5px !important;
+    width: 30px !important;
+  }
+  header .bars img {
+    cursor: pointer !important;
+  }
+  main .page1 {
+    flex-wrap: wrap-reverse !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px 10px 40px 10px !important;
+    gap: 20px;
+  }
+  main .page1 img {
+    width: 170px;
+    height: 170px;
+  }
+  main .page1 .page1__text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #21243d;
+  }
+  main .page1 .page1__text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243d;
+    margin: 20px 0;
+    width: auto !important;
+  }
+  main .page1 .page1__text form {
+    text-align: center !important;
+  }
+  main .page1 .page1__text form button {
+    padding: 7px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+
+  main .page2 .page2__box1 {
+    padding: none !important;
+    justify-content: center;
+  }
+  main .page2 .page2__box1 h2 {
+    display: none !important;
+  }
+  main .page2 .page2__box1 h1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243d;
+  }
+  main .page2 .page2__box2 {
+    padding: 10px 10px 10px 10px !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    justify-content: center !important;
+  }
+  main .page2 .page2__box2 .page2__box2-item h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #21243d;
+  }
+  main .page3 {
+    padding: 15px 10px !important;
+  }
+  main .page3 h1 {
+    text-align: center;
+  }
+  main .page3 .page3__box .page3__box-item {
+    flex-wrap: wrap !important;
+    gap: 10px;
+  }
+  main .page3 .page3__box .page3__box-item h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #21243d;
+    text-align: start !important;
+  }
+  main .page3 .page3__box .page3__box-item img {
+    width: 80%;
+  }
+  main .page3__box .page3__box-item-text {
+    gap: 10px;
+  }
+  main
+    .page3
+    .page3__box
+    .page3__box-item
+    .page3__box-item-text
+    .page3__box-item-text-minitext
+    h1 {
+    font-size: 18px;
+  }
+  main
+    .page3
+    .page3__box
+    .page3__box-item
+    .page3__box-item-text
+    .page3__box-item-text-minitext
+    span {
+    font-size: 15px;
+  }
+  main .page3__box .page3__box-item-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+    width: auto !important;
+  }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
